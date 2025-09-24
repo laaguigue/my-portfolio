@@ -11,7 +11,6 @@ const ThemeProvider = ({ children }) => {
   if (!mounted) {
     return <div />;
   }
-
   return (
     <NextThemeProvider attribute="class">
       {children}
